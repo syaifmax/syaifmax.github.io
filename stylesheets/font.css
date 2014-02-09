@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'syaifmax-logo';
+	src:url('fonts/syaifmax-logo.eot?up6vog');
+	src:url('fonts/syaifmax-logo.eot?#iefixup6vog') format('embedded-opentype'),
+		url('fonts/syaifmax-logo.woff?up6vog') format('woff'),
+		url('fonts/syaifmax-logo.ttf?up6vog') format('truetype'),
+		url('fonts/syaifmax-logo.svg?up6vog#syaifmax-logo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'syaifmax-logo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-syaifmax-logo:before {
+	content: "\e600";
+}
